@@ -46,7 +46,7 @@ app.use("/api", require("./src/routes/view_student_profile_routes"));
 app.use("/api", require("./src/routes/view_attendance_teacher_side_routes.js"));
 app.use("/api", require("./src/routes/view_notifications_teacher_route"));
 app.use("/api", require("./src/routes/routes"));
-app.use("/api", require("./src/routes/attendanceroutes"));
+app.use("/api", require("./src/routes/attendanceRoutes"));
 app.use("/api", require("./src/routes/login_admin"));
 app.use("/api", require("./src/routes/register_admin"));
 app.use("/api", require("./src/routes/add_attendance_routes"));
