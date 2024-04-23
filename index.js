@@ -64,15 +64,6 @@ app.use("/api", require("./src/routes/book_manager_routes"));
 app.use("/api", require("./src/routes/add_fee_heads_routes"));
 app.use("/api", require("./src/routes/logout_admin_route.js"));
 
-// app.use("/api", Admin_post_logout)
-app.post('/set-cookie', (req, res) => {
-  // Set a cookie named 'test' with the value 'yourTokenValue'
-
-
-  // Send a response
-  res.send('Cookie set successfully!');
-});
-
 app.listen(PORT, () => {
   console.log(
     `Server running on port http://localhost:${PORT}/api/login_admin`
